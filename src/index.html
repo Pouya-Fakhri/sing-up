@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="flex  w-screen overflow-hidden h-screen">
+      <div class="left-part w-[70%] h-full">
+        <img src="../images/Left.jpg" alt="" class="w-full" />
+      </div>
+      <div class="right-part w-full flex flex-col justify-center items-center">
+        <div class="container flex flex-col justify-center items-center gap-5  w-[50%]">
+          <h1 class="text-[28px] self-start font-bold">sing Up</h1>
+          <form action="POST" class="flex flex-col gap-5 " id="loginForm">
+            <input
+              type="email"
+              class="w-[440px] h-16 bg-[#F5F5F7] text-[#868AA5] rounded-xl p-4"
+              name="email"
+              placeholder="E-mail"
+            />
+            <input
+              type="password"
+              class="w-[440px] h-16 bg-[#F5F5F7] text-[#868AA5] rounded-xl p-4"
+              name="password"
+              placeholder="password"
+            />
+            <button
+              type="submit"
+              class="w-[176px] h-[70px] bg-[#007DFA] text-white font-semibold text-[28px] flex justify-center items-center rounded-lg self-end"
+            >   NEXT</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
